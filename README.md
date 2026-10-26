@@ -205,29 +205,10 @@ ProcureGuard/
 └── README.md
 ```
 
-Save your actual Power BI `.pbix` file in `dashboard/` after building the report. The screenshot is a design reference; it is not an interactive PBIX file.
-
-## 5. Resume bullets (use after completing the work)
-
-**ProcureGuard — Procurement Contract Compliance & Supplier Analytics | Excel, Power Query, Power BI, DAX**
-- Built an interactive Power BI reporting solution using synthetic supplier, contract, invoice and obligation datasets to monitor spend, invoice rate variances, contract expirations and overdue deliverables.
-- Cleaned and transformed data in Power Query, modelled related procurement tables, and developed DAX KPIs for invoice compliance, potential rate variance and contractual obligation completion.
-- Designed overview, compliance and contract-tracking report pages with supplier-level analysis and exception tables; reconciled headline metrics against source data and documented business recommendations.
-
-Be transparent that the data is synthetic and do not claim real savings or a real client implementation.
-
-## 6. Interview talking points
-- Why you separated the tables and used IDs for relationships.
-- Difference between contract rate compliance and three-way matching.
-- Why a rate variance is a potential exception, not automatically confirmed overbilling.
-- How you reconciled totals and prevented duplicated amounts.
-- How the dashboard helps prioritize contract renewals and supplier follow-ups.
-
-## 7. Limitations and next improvements
+## 5. Limitations and next improvements
 - Data is synthetic and intentionally designed to illustrate the workflow.
 - Current compliance flags are pre-labelled for teaching; in a production solution, derive them from approved contract terms, amendments and business rules.
 - The sample does not include a full purchase order, receipt and invoice matching process.
 - Future enhancements: a proper Date table, configurable tolerance thresholds, exception ownership, refresh monitoring and row-level security.
 
 ---
-**License suggestion:** MIT for the project documentation and model code, if you choose to make the repository public. State that the dataset is synthetic.
